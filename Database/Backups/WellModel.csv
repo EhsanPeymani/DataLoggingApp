@@ -1,0 +1,25 @@
+fBitDepth;Double
+fBitDepthTVD;Double
+fBoreholeBitPressure;Double
+fDensityFlowOut;Double
+fFlowRateOut;Double
+fHoleDepth;Double
+fHookLoad;Double
+fPipeDensity;Double
+fReturnFlowPrc;Double
+fStandpipePress;Double
+fSurfaceTorque;Double
+fTemperatureOut;Double
+fWeightOnBit;Double
+tBoreholeDensity;2D array of Double
+tBoreholeFlowrate;2D array of Double
+tBoreholePressure;2D array of Double
+tECD;2D array of Double
+tMeasuredDepth;2D array of Double
+tOutflow;2D array of Double
+tPipeDensity;2D array of Double
+tPipeFlowrate;2D array of Double
+tPipePressure;2D array of Double
+tPredictedGeoPressure;2D array of Double
+tRevisedGeoPressure;2D array of Double
+tTrueVerticalDepth;2D array of Double

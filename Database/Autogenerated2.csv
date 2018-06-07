@@ -1,0 +1,4 @@
+Variable Name;Variable Data Type;Bind:Server Name;Bind:Process Name;Bind:Variable Name
+FlowrateDownstreamMP;Int321;;;
+fTotalFlowRateIntoWell;Double;;;
+fTotalMudPitDeltaVolume;Double;;;

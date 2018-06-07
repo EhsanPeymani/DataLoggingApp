@@ -1,0 +1,73 @@
+bMP1Pause;Boolean
+bMP1Resume;Boolean
+bMP1StartStop;Boolean
+bResetActiveGainLossDV;Boolean
+DICS.fHookSpeed;Double
+fStrokeRefMP1;Double
+iOperationSelector;Int32
+fDensityOutCoriolis;Double
+fFlowOutCoriolis;Double
+fPressureWhileDrilling;Double
+fPressureWhileDrillingCont;Double
+fStandpipePressM;Double
+fTempOutCoriolis;Double
+bActivePitTank1;Boolean
+bActivePitTank2;Boolean
+bActivePitTank3;Boolean
+bActiveTripTankA;Boolean
+bActiveTripTankB;Boolean
+bEnableConnection;Boolean
+bEnableDrilling;Boolean
+bEnableFlowCheck;Boolean
+bEnableTripIn;Boolean
+bEnableTripOut;Boolean
+bMP1StrokePulse;Boolean
+bResetLrefSetOUT;Boolean
+fGainLoss;Double
+fMeasuredTransTime;Double
+fMP1disp;Double
+fMP1eff;Double
+fMP1FlowrateDownStream;Double
+fMP1frate;Double
+fMP1liner;Double
+fMP2disp;Double
+fMP2eff;Double
+fMP2liner;Double
+fMP2rate;Double
+fMPCurrentSPM;Double
+fMPTotalFlowrateDownStream;Double
+fPTAVolume;Double
+fSPP_barg;Double
+fTTAVolume;Double
+fTTPumpFraction;Double
+fTTPumpNominal;Double
+fVolumePitTank1;Double
+fVolumePitTank2;Double
+fVolumePitTank3;Double
+fVolumeTripTankA;Double
+fVolumeTripTankB;Double
+fBitDepth;Double
+fBitDepthTVD;Double
+fBoreholeBitPressure;Double
+fDensityFlowOut;Double
+fFlowRateOut;Double
+fHoleDepth;Double
+fHookLoad;Double
+fPipeDensity;Double
+fReturnFlowPrc;Double
+fStandpipePress;Double
+fSurfaceTorque;Double
+fTemperatureOut;Double
+fWeightOnBit;Double
+tBoreholeDensity;2D array of Double
+tBoreholeFlowrate;2D array of Double
+tBoreholePressure;2D array of Double
+tECD;2D array of Double
+tMeasuredDepth;2D array of Double
+tOutflow;2D array of Double
+tPipeDensity;2D array of Double
+tPipeFlowrate;2D array of Double
+tPipePressure;2D array of Double
+tPredictedGeoPressure;2D array of Double
+tRevisedGeoPressure;2D array of Double
+tTrueVerticalDepth;2D array of Double

@@ -1,0 +1,89 @@
+Heartbeat;Int32;localhost;FromDDS;Heartbeat
+fHKLDTopDr;Double;localhost;FromDDS;fHKLDTopDr
+fSurfaceTorqueTopDr;Double;localhost;FromDDS;fSurfaceTorqueTopDr
+fWeightOnBit;Double;localhost;FromDDS;fWeightOnBit
+fTorqueOnBit;Double;localhost;FromDDS;fTorqueOnBit
+fRateOfPenetration;Double;localhost;FromDDS;fRateOfPenetration
+fBitDepthMD;Double;localhost;FromDDS;fBitDepthMD
+fTotalDepthMD;Double;localhost;FromDDS;fTotalDepthMD
+fTotalDepthTVD;Double;localhost;FromDDS;fTotalDepthTVD
+fRealHookPos;Double;localhost;FromDDS;fRealHookPos
+fECD;Double;localhost;FromDDS;fECD
+fStandpipePress;Double;localhost;FromDDS;fStandpipePress
+fChokeLinePressure;Double;localhost;FromDDS;fChokeLinePressure
+fTotalMudPitDeltaVolume;Double;localhost;FromDDS;fTotalMudPitDeltaVolume
+fTotalTripTankDeltaVolume;Double;localhost;FromDDS;fTotalTripTankDeltaVolume
+fTripTankVolume;Double;localhost;FromDDS;fTripTankVolume
+fFlowRateOut;Double;localhost;FromDDS;fFlowRateOut
+fDensityFlowOut;Double;localhost;FromDDS;fDensityFlowOut
+fReturnFlowPrecentage;Double;localhost;FromDDS;fReturnFlowPrecentage
+fBitDepthTVD;Double;localhost;FromDDS;fBitDepthTVD
+fPipePressure;Double;localhost;FromDDS;fPipePressure
+fBottomHolePressure;Double;localhost;FromDDS;fBottomHolePressure
+fPipeDensity;Double;localhost;FromDDS;fPipeDensity
+fBottomHoleDensity;Double;localhost;FromDDS;fBottomHoleDensity
+fBoreholeBitPressure;Double;localhost;FromDDS;fBoreholeBitPressure
+fPipeBitPressure;Double;localhost;FromDDS;fPipeBitPressure
+fPipeBitFlowrate;Double;localhost;FromDDS;fPipeBitFlowrate
+fFluidYieldPoint;Double;localhost;FromDDS;fFluidYieldPoint
+fFlowBehaviorIndex;Double;localhost;FromDDS;fFlowBehaviorIndex
+fFluidConsistencyIndex;Double;localhost;FromDDS;fFluidConsistencyIndex
+fBHA;Double;localhost;FromDDS;fBHA
+fCasingShoeDepth;Double;localhost;FromDDS;fCasingShoeDepth
+fCasingShoePressure;Double;localhost;FromDDS;fCasingShoePressure
+bIsDrilling;Boolean;localhost;FromDDS;bIsDrilling
+bBitDepthIncreasing;Boolean;localhost;FromDDS;bBitDepthIncreasing
+iNumberOfGrids;Int32;localhost;FromDDS;iNumberOfGrids
+fOpenHoleDiameter;Double;localhost;FromDDS;fOpenHoleDiameter
+fMudRefViscosity;Double;localhost;FromDDS;fMudRefViscosity
+fTotalFlowRateIn;Double;localhost;FromDDS;fTotalFlowRateIn
+fTotalFlowRateIntoWell;Double;localhost;FromDDS;fTotalFlowRateIntoWell
+fPopOffValveFlowSteady;Double;localhost;FromDDS;fPopOffValveFlowSteady
+fPopOffValveFlowFiltered;Double;localhost;FromDDS;fPopOffValveFlowFiltered
+fBleedOffValveFlowSteady;Double;localhost;FromDDS;fBleedOffValveFlowSteady
+fBleedOffValveFlowFiltered;Double;localhost;FromDDS;fBleedOffValveFlowFiltered
+fPopOffValveSetPointPressure;Double;localhost;FromDDS;fPopOffValveSetPointPressure
+bCirculateOnHole;Boolean;localhost;FromDDS;bCirculateOnHole
+fTotalNominalFlowRate;Double;localhost;FromDDS;fTotalNominalFlowRate
+bTripTankInletValve;Boolean;localhost;FromDDS;bTripTankInletValve
+bCirculating;Boolean;localhost;FromDDS;bCirculating
+bWellOpen;Boolean;localhost;FromDDS;bWellOpen
+bDHTInUse;Boolean;localhost;FromDDS;bDHTInUse
+fMultiplicationFactor;Double;localhost;FromDDS;fMultiplicationFactor
+bTorqueShaftLimitExceed;Boolean;localhost;FromDDS;bTorqueShaftLimitExceed
+fBitDensity;Double;localhost;FromDDS;fBitDensity
+fWeightBelowJar;Double;localhost;FromDDS;fWeightBelowJar
+fHookloadDownWeight;Double;localhost;FromDDS;fHookloadDownWeight
+fHookloadUpWeight;Double;localhost;FromDDS;fHookloadUpWeight
+bConnected;Boolean;localhost;FromDDS;bConnected
+bInSlips;Boolean;localhost;FromDDS;bInSlips
+fAnnularPrevValvePosition;Double;localhost;FromDDS;fAnnularPrevValvePosition
+fFractionFirstTTPump;Double;localhost;FromDDS;fFractionFirstTTPump
+fTorqueSetPoint;Double;localhost;FromDDS;fTorqueSetPoint
+fRamJoystickPercentage;Double;localhost;FromDDS;fRamJoystickPercentage
+fSurfaceRPM;Double;localhost;FromDDS;fSurfaceRPM
+fHookVelocity;Double;localhost;FromDDS;fHookVelocity
+fHookPos;Double;localhost;FromDDS;fHookPos
+tPipePressure;2D array of Double;localhost;FromDDS;tPipePressure
+tPipeFlowrate;2D array of Double;localhost;FromDDS;tPipeFlowrate
+tBoreholePressure;2D array of Double;localhost;FromDDS;tBoreholePressure
+tBoreholeFlowrate;2D array of Double;localhost;FromDDS;tBoreholeFlowrate
+tPipeDensity;2D array of Double;localhost;FromDDS;tPipeDensity
+tBoreholeDensity;2D array of Double;localhost;FromDDS;tBoreholeDensity
+tBoreholeLoss;2D array of Double;localhost;FromDDS;tBoreholeLoss
+tBoreholeInflux;2D array of Double;localhost;FromDDS;tBoreholeInflux
+tECD;2D array of Double;localhost;FromDDS;tECD
+tBoreholeAreaCrossSection;2D array of Double;localhost;FromDDS;tBoreholeAreaCrossSection
+tPipeOuterDiameter;2D array of Double;localhost;FromDDS;tPipeOuterDiameter
+tPipeInnerDiameter;2D array of Double;localhost;FromDDS;tPipeInnerDiameter
+tBitNozzlesDiameter;2D array of Double;localhost;FromDDS;tBitNozzlesDiameter
+tBoreholeDiameter;2D array of Double;localhost;FromDDS;tBoreholeDiameter
+tInclination;2D array of Double;localhost;FromDDS;tInclination
+tStabilizers;2D array of Double;localhost;FromDDS;tStabilizers
+tMeasureDepth;2D array of Double;localhost;FromDDS;tMeasureDepth
+tMeasureDepthAdjusted;2D array of Double;localhost;FromDDS;tMeasureDepthAdjusted
+tTVD;2D array of Double;localhost;FromDDS;tTVD
+tTrueVerticalDepthAligned;2D array of Double;localhost;FromDDS;tTrueVerticalDepthAligned
+tPredictedGeoPressure;2D array of Double;localhost;FromDDS;tPredictedGeoPressure
+tRevisedGeoPressure;2D array of Double;localhost;FromDDS;tRevisedGeoPressure
+tRevisedGeoPressureAligned;2D array of Double;localhost;FromDDS;tRevisedGeoPressureAligned

@@ -1,0 +1,4 @@
+fFakeHookPos;Double;localhost;FromDDS;fFakeHookPos
+fFakeHookVel;2D array of Int64;localhost;FromDDS;fFakeHookVel
+fFakeMaxHookPos;Int32;localhost;FromDDS;fFakeMaxHookPos
+fFakeMinHookPos;UInt16;localhost;FromDDS;fFakeMinHookPos

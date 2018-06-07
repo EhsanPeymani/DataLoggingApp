@@ -1,0 +1,5 @@
+fFakeHookPos;Double;localhost;FromDDS;fFakeHookPos
+fFakeMinHookPos;Double;localhost;FromDDS;fFakeMinHookPos
+fFakeMaxHookPos;Double;localhost;FromDDS;fFakeMaxHookPos
+fFakeHookVel;Double;localhost;FromDDS;fFakeHookVel
+fFakeDrillingLoadSource;Int32;localhost;FromDDS;fFakeDrillingLoadSource

@@ -1,0 +1,4 @@
+Error ;9001;Database Path is not correct or is empty. Press Back and enter a valid path.
+Error ;9002;Database format is not acceptable. Column headers are not as expected.
+Error ;9003;First row of database is allocated to headers. Database requires to provide information for at least one variable.
+Error ;9004;Variable Name and Variable Data Type must be provided in the database.

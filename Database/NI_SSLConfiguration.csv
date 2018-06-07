@@ -1,0 +1,15 @@
+Certificate Count;Double
+Certificate Count;Double
+Filename;String
+Issuer;String
+SerialNumber;Double
+Common Name;String
+Country Name;String
+Key Usage;String
+Locality Name;String
+Organization Name;String
+Organizational Unit Name;String
+State or Province Name;String
+SubjectAltName;String
+ValidFrom;String
+ValidTo;String

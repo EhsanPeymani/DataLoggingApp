@@ -1,0 +1,8 @@
+fTotalDepthMD;Double;localhost;FromDDS;fTotalDepthMD
+fTotalDepthTVD;Double;localhost;FromDDS;fTotalDepthTVD
+fRealHookPos;Double;localhost;FromDDS;fRealHookPos
+fECD;Double;localhost;FromDDS;fECD
+fStandpipePress;Double;localhost;FromDDS;fStandpipePress
+fChokeLinePressure;Double;localhost;FromDDS;fChokeLinePressure
+fTotalMudPitDeltaVolume;Double;localhost;FromDDS;fTotalMudPitDeltaVolume
+fTotalTripTankDeltaVolume;Double;localhost;FromDDS;fTotalTripTankDeltaVolume

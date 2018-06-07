@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XFactorDDSServerProject
+  Version="1.002000"
+  SoftwareVersion="1.6.12.7759"
+  XUID="0x1a2f981e"
+  State="0x00000002">
+  <ClientsProviders
+    Name="ClientsProviders"
+    XUID="0xaa3f109f"
+    State="0x00000002"/>
+  <ClientsSubscribers
+    Name="ClientsSubscribers"
+    XUID="0xf005a235"
+    State="0x00000000"/>
+</XFactorDDSServerProject>
