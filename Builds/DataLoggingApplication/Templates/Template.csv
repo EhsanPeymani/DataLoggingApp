@@ -1,0 +1,15 @@
+Variable Name;Variable Data Type;Bind:Server Name;Bind:Process Name;Bind:Variable Name
+fFakeHookPos;Double;localhost;newLibrary;fFakeHookPos
+fFakeMinHookPos;Double;localhost;newLibrary;fFakeMinHookPos
+fFakeMaxHookPos;Double;localhost;newLibrary;fFakeMaxHookPos
+fFakeHookVel;Double;localhost;newLibrary;fFakeHookVel
+fFakeDrillingLoadSource;Int32;localhost;newLibrary;fFakeDrillingLoadSource
+fFakeBlockWeight;Double;localhost;newLibrary;fFakeBlockWeight
+fFakeRate1;Double;localhost;newLibrary;fFakeRate1
+fFakeRate2;Double;
+fFakeStroke1;Int32;
+fFakeStroke2;Int32;
+tTrueVerticalDepthAligned;2D array of Double;localhost;newLibrary;tTrueVerticalDepthAligned
+tPredictedGeoPressure;2D array of Double;localhost;newLibrary;tPredictedGeoPressure
+tRevisedGeoPressure;2D array of Double;localhost;newLibrary;tRevisedGeoPressure
+tRevisedGeoPressureAligned;2D array of Double;localhost;newLibrary;tRevisedGeoPressureAligned

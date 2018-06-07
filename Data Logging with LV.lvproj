@@ -511,23 +511,27 @@
 				<Property Name="Bld_buildCacheID" Type="Str">{864307C0-2FBF-4B00-8BF7-96302C9217AB}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">01 Data logging Application</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/Executables/Data Logging Application</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Builds/DataLoggingApplication</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C0330A5E-3872-42DE-8248-BCEFA61123AD}</Property>
 				<Property Name="Bld_version.build" Type="Int">37</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Data logging Application.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/Executables/Data Logging Application/Data logging Application.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../Builds/DataLoggingApplication/Data logging Application.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/Executables/Data Logging Application/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../Builds/DataLoggingApplication/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[2].destName" Type="Str">Documentation</Property>
-				<Property Name="Destination[2].path" Type="Path">../builds/Executables/Data Logging Application/Documentation</Property>
+				<Property Name="Destination[2].path" Type="Path">../Builds/DataLoggingApplication/Documentation</Property>
+				<Property Name="Destination[2].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[3].destName" Type="Str">Templates</Property>
-				<Property Name="Destination[3].path" Type="Path">../builds/Executables/Data Logging Application/Templates</Property>
+				<Property Name="Destination[3].path" Type="Path">../Builds/DataLoggingApplication/Templates</Property>
+				<Property Name="Destination[3].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Support/icon/data_logging_2.ico</Property>
 				<Property Name="Source[0].itemID" Type="Str">{C06DEBE6-B7A5-4FCD-AD47-9E113C0A289F}</Property>

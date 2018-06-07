@@ -1,0 +1,23 @@
+1.0.0: 
+	First Release: Basic Functionality
+	Recording scalars and 1D arrays
+
+2.0.0:
+	Recording 2D arrays added
+	Reorganizing the front panel - a lot of changes took place - see TFS tasks and check-in notes	
+
+2.1.0	2015-11-16
+	Bug fixed. Selected Process and Variables maintained after initialization.
+	Folder options are by default C:\MHWirth\Data Logging Application\Logs
+	Default setting improved.
+	Error handling improved.
+	Menu: Settings -- Advanced Setting -- DB Type is added so that the user select what kind of DB shall be generated.
+	Robustness to variable display resolution was made.
+	Improved Front Panel usability:
+		- Origianl size is always maintained.
+		- Ability to resize properly - scrollbars dynamically enabled/disabled.
+		- System Tray - Minimizing Topside Mud Process lets it go to system tray and removes it from taskbar
+		- Maximizing front panel retrieve the original size, and center it.
+
+		
+		

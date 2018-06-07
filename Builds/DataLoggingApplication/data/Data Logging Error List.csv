@@ -1,0 +1,11 @@
+Error;9020;Mismatch between data types. Replace the database: Tools -> Database -> Replace database.
+Warning;9021;One or more shared variable(s) do not have values. Consider initialization of shared variables using Menu: Tools -> Variables -> Shared Variable Engine.
+Error;9022;File extension is not supported.
+Error;7000;Shared variable data type is not defined.
+Error;7001;Type Code Array (Int32) contains -1 indicating an unknown data type. 
+Error;7002;1D Array of Strings is not supported by read function.
+Error;7003;2D Array of Strings is not supported by read function.
+Warning;7010;Configuration file may not have been made for this application. It might be the first time you've opened the app. The application works fine, but setting shall be manually adjusted.
+Error;7020;Invalid URL. Server name is empty or does not exist.
+Error;7021;File Name is empty.
+Error;7022;Make sure that MS Excel is installed. Alternatively, you can change the type of database using menu: Settings --> Advanced Settings --> Database Type.
