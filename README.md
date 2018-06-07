@@ -25,7 +25,7 @@ The user guide explains all features of the application.
 
 I have made a wiki page here and highlighted some cool features that you may like to know before reading the user guide: https://github.com/EhsanPeymani/DataLoggingApp/wiki/Data-Logging-Application/_edit#a-quick-how-to-start 
 
-# Data viewer
+# Data Viewer
 
 
 # SV Creation Wizard
