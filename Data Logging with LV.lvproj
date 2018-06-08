@@ -515,7 +515,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C0330A5E-3872-42DE-8248-BCEFA61123AD}</Property>
-				<Property Name="Bld_version.build" Type="Int">37</Property>
+				<Property Name="Bld_version.build" Type="Int">45</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Data logging Application.exe</Property>
@@ -534,7 +534,7 @@
 				<Property Name="Destination[3].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Support/icon/data_logging_2.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C06DEBE6-B7A5-4FCD-AD47-9E113C0A289F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1F88A41D-3414-46F1-8705-A1E3248F11C6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/Data Logging Application.vi</Property>
@@ -584,10 +584,10 @@
 				<Property Name="Source[9].destinationIndex" Type="Int">3</Property>
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Support/Templates/Template.xlsx</Property>
 				<Property Name="SourceCount" Type="Int">13</Property>
-				<Property Name="TgtF_companyName" Type="Str">MHWirth ASA</Property>
+				<Property Name="TgtF_companyName" Type="Str">ePeymani</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">MHWirth Data logging Application</Property>
 				<Property Name="TgtF_internalName" Type="Str">01 Data logging Application</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 MHWirth ASA</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 Ehsan Peymani</Property>
 				<Property Name="TgtF_productName" Type="Str">01 Data logging Application</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{A8E02C3E-637F-4BD2-B106-895092B00056}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Data logging Application.exe</Property>
@@ -643,38 +643,40 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/SV Creation Wizard</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Builds/SVCreationWizard</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{20C42EE9-3418-4F3C-9A42-FB79A3A2AE10}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">SV Wizard.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/SV Creation Wizard/SV Wizard.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../Builds/SVCreationWizard/SV Wizard.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/SV Creation Wizard/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../Builds/SVCreationWizard/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Support/Figs/Wizard2.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{12511A44-0321-4D23-BDDC-09E7094C48F8}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Support/icon/Wizard2.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1F88A41D-3414-46F1-8705-A1E3248F11C6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/Wizard.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_companyName" Type="Str">MHWirth ASA</Property>
+				<Property Name="TgtF_companyName" Type="Str">ePeymani</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Shared Variable Creation Wizard</Property>
 				<Property Name="TgtF_internalName" Type="Str">Wizard</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 MHWirth</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 Ehsan Peymani</Property>
 				<Property Name="TgtF_productName" Type="Str">SC Creation Wizard</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{04EB21DE-C018-4B5A-9E49-E0566714A30A}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">SV Wizard.exe</Property>
 			</Item>
 			<Item Name="02 Simple Installer - Data Logging Application" Type="Installer">
-				<Property Name="Destination[0].name" Type="Str">c:\MHWirth</Property>
-				<Property Name="Destination[0].path" Type="Path">/c/MHWirth</Property>
+				<Property Name="Destination[0].name" Type="Str">c:\LabVIEWapps</Property>
+				<Property Name="Destination[0].path" Type="Path">/c/LabVIEWapps</Property>
 				<Property Name="Destination[0].tag" Type="Str">{AF249C9C-F70B-4C99-A709-5F965BD228BD}</Property>
 				<Property Name="Destination[0].type" Type="Str">absFolder</Property>
 				<Property Name="Destination[1].name" Type="Str">Data Logging Application</Property>
@@ -683,23 +685,21 @@
 				<Property Name="Destination[1].type" Type="Str">userFolder</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="INST_author" Type="Str">Aker Solutions ASA</Property>
-				<Property Name="INST_buildLocation" Type="Path">../builds/Simple Installer/Data Logging Application</Property>
+				<Property Name="INST_buildLocation" Type="Path">../DataLoggingApp/Installers/DataLoggingApp</Property>
 				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
 				<Property Name="INST_buildSpecName" Type="Str">02 Simple Installer - Data Logging Application</Property>
 				<Property Name="INST_defaultDir" Type="Str">{94CC5A97-8BFE-400C-95B1-5D678363D8BE}</Property>
 				<Property Name="INST_productName" Type="Str">Data Logging Application</Property>
-				<Property Name="INST_productVersion" Type="Str">2.1.0</Property>
+				<Property Name="INST_productVersion" Type="Str">2.2.0</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">14008036</Property>
-				<Property Name="MSI_arpCompany" Type="Str">MHWirth</Property>
+				<Property Name="MSI_arpCompany" Type="Str">Ehsan Peymani</Property>
 				<Property Name="MSI_arpContact" Type="Str">ehsan.peymani@mhwirth.com</Property>
 				<Property Name="MSI_arpURL" Type="Str">www.mhwirth.com</Property>
-				<Property Name="MSI_bannerImageID" Type="Ref"></Property>
 				<Property Name="MSI_distID" Type="Str">{0C727B5D-164E-4C69-8084-8A6488D0EF69}</Property>
 				<Property Name="MSI_osCheck" Type="Int">0</Property>
 				<Property Name="MSI_upgradeCode" Type="Str">{EB34A2C0-9F0C-4CF0-95CE-576FF65CB18B}</Property>
-				<Property Name="MSI_welcomeImageID" Type="Ref"></Property>
-				<Property Name="MSI_windowMessage" Type="Str">MHWirth solution for PC-based data logging. </Property>
+				<Property Name="MSI_windowMessage" Type="Str">A solution for PC-based data logging. </Property>
 				<Property Name="MSI_windowTitle" Type="Str">Data Logging Application</Property>
 				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
 				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
@@ -708,12 +708,12 @@
 				<Property Name="Source[0].dest" Type="Str">{94CC5A97-8BFE-400C-95B1-5D678363D8BE}</Property>
 				<Property Name="Source[0].File[0].dest" Type="Str">{94CC5A97-8BFE-400C-95B1-5D678363D8BE}</Property>
 				<Property Name="Source[0].File[0].name" Type="Str">Data logging Application.exe</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">1</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">Data logging Application</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">MHWirth</Property>
-				<Property Name="Source[0].File[0].Shortcut[1].destIndex" Type="Int">1</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str"></Property>
+				<Property Name="Source[0].File[0].Shortcut[1].destIndex" Type="Int">0</Property>
 				<Property Name="Source[0].File[0].Shortcut[1].name" Type="Str">Data logging Application</Property>
-				<Property Name="Source[0].File[0].Shortcut[1].subDir" Type="Str"></Property>
+				<Property Name="Source[0].File[0].Shortcut[1].subDir" Type="Str">LabVIEW Apps</Property>
 				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">2</Property>
 				<Property Name="Source[0].File[0].tag" Type="Str">{A8E02C3E-637F-4BD2-B106-895092B00056}</Property>
 				<Property Name="Source[0].File[1].dest" Type="Str">{F834625C-4BD1-44B3-9D85-A2A17FE1E4EC}</Property>
@@ -787,6 +787,62 @@
 				<Property Name="Source[0].FileCount" Type="Int">1</Property>
 				<Property Name="Source[0].name" Type="Str">02 Log Viewer</Property>
 				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/02 Log Viewer</Property>
+				<Property Name="Source[0].type" Type="Str">EXE</Property>
+				<Property Name="SourceCount" Type="Int">1</Property>
+			</Item>
+			<Item Name="02 Simple Installer - SV Creation Wizard" Type="Installer">
+				<Property Name="AB_Class_Path" Type="Path">/C/Program Files (x86)/National Instruments/LabVIEW 2014/vi.lib/AppBuilder/IB_Classes/MSI/IB_MSI.lvclass</Property>
+				<Property Name="AB_UIClass_Path" Type="Path">/C/Program Files (x86)/National Instruments/LabVIEW 2014/vi.lib/AppBuilder/IB_Classes/Installer/UI/AB_UI_Frmwk_Installer.lvclass</Property>
+				<Property Name="Destination[0].name" Type="Str">c:\LabVIEWapps</Property>
+				<Property Name="Destination[0].path" Type="Path">/c/LabVIEWapps</Property>
+				<Property Name="Destination[0].tag" Type="Str">{AF249C9C-F70B-4C99-A709-5F965BD228BD}</Property>
+				<Property Name="Destination[0].type" Type="Str">absFolder</Property>
+				<Property Name="Destination[1].name" Type="Str">SVCreationWizard</Property>
+				<Property Name="Destination[1].parent" Type="Str">{AF249C9C-F70B-4C99-A709-5F965BD228BD}</Property>
+				<Property Name="Destination[1].tag" Type="Str">{94CC5A97-8BFE-400C-95B1-5D678363D8BE}</Property>
+				<Property Name="Destination[1].type" Type="Str">userFolder</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="INST_author" Type="Str">Aker Solutions ASA</Property>
+				<Property Name="INST_buildLocation" Type="Path">../DataLoggingApp/Installers/SVCreationWizard</Property>
+				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
+				<Property Name="INST_buildSpecName" Type="Str">02 Simple Installer - SV Creation Wizard</Property>
+				<Property Name="INST_defaultDir" Type="Str">{94CC5A97-8BFE-400C-95B1-5D678363D8BE}</Property>
+				<Property Name="INST_productName" Type="Str">SV Creation Wizard</Property>
+				<Property Name="INST_productVersion" Type="Str">2.2.0</Property>
+				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
+				<Property Name="InstSpecVersion" Type="Str">14008036</Property>
+				<Property Name="MSI_arpCompany" Type="Str">Ehsan Peymani</Property>
+				<Property Name="MSI_arpContact" Type="Str">ehsan.peymani.f@gmail.com</Property>
+				<Property Name="MSI_arpPhone" Type="Str">+47 94224458</Property>
+				<Property Name="MSI_distID" Type="Str">{60ABB8D0-9D19-4E67-894E-3EC361D2A981}</Property>
+				<Property Name="MSI_osCheck" Type="Int">0</Property>
+				<Property Name="MSI_upgradeCode" Type="Str">{217B1874-2657-4A53-B0C2-1B874971231E}</Property>
+				<Property Name="MSI_windowMessage" Type="Str">This will help you create, deploy, initialize a library of shared variables and manage the SVE. </Property>
+				<Property Name="MSI_windowTitle" Type="Str">Shared Variable Creation Wizard</Property>
+				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
+				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
+				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
+				<Property Name="RegDestCount" Type="Int">1</Property>
+				<Property Name="Source[0].dest" Type="Str">{94CC5A97-8BFE-400C-95B1-5D678363D8BE}</Property>
+				<Property Name="Source[0].File[0].dest" Type="Str">{94CC5A97-8BFE-400C-95B1-5D678363D8BE}</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">SV Wizard.exe</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">SV Wizard</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">LabVIEW Apps</Property>
+				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
+				<Property Name="Source[0].File[0].tag" Type="Str">{04EB21DE-C018-4B5A-9E49-E0566714A30A}</Property>
+				<Property Name="Source[0].File[1].dest" Type="Str">{F834625C-4BD1-44B3-9D85-A2A17FE1E4EC}</Property>
+				<Property Name="Source[0].File[1].name" Type="Str">Data logging Application.aliases</Property>
+				<Property Name="Source[0].File[1].tag" Type="Str">{5B4D3E7E-831E-473C-ADFE-BE4734DF844D}</Property>
+				<Property Name="Source[0].File[2].dest" Type="Str">{F834625C-4BD1-44B3-9D85-A2A17FE1E4EC}</Property>
+				<Property Name="Source[0].File[2].name" Type="Str">Data logging Application.ini</Property>
+				<Property Name="Source[0].File[2].tag" Type="Str">{90499278-294E-418B-82C1-1C6FEEDBCEB8}</Property>
+				<Property Name="Source[0].File[3].dest" Type="Str">{F834625C-4BD1-44B3-9D85-A2A17FE1E4EC}</Property>
+				<Property Name="Source[0].File[3].name" Type="Str">Version Maker.mht</Property>
+				<Property Name="Source[0].File[3].tag" Type="Str">{C3B7A5DB-1ADB-4DE8-8E1F-1AB4EF36BC21}</Property>
+				<Property Name="Source[0].FileCount" Type="Int">1</Property>
+				<Property Name="Source[0].name" Type="Str">Wizard</Property>
+				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Wizard</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
 				<Property Name="SourceCount" Type="Int">1</Property>
 			</Item>

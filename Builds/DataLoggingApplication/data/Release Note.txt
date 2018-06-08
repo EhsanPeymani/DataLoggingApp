@@ -8,7 +8,7 @@
 
 2.1.0	2015-11-16
 	Bug fixed. Selected Process and Variables maintained after initialization.
-	Folder options are by default C:\MHWirth\Data Logging Application\Logs
+	Folder options are by default C:\log\logs and c:\log\db
 	Default setting improved.
 	Error handling improved.
 	Menu: Settings -- Advanced Setting -- DB Type is added so that the user select what kind of DB shall be generated.

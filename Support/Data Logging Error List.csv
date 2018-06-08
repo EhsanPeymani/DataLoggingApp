@@ -9,3 +9,4 @@ Warning;7010;Configuration file may not have been made for this application. It 
 Error;7020;Invalid URL. Server name is empty or does not exist.
 Error;7021;File Name is empty.
 Error;7022;Make sure that MS Excel is installed. Alternatively, you can change the type of database using menu: Settings --> Advanced Settings --> Database Type.
+Error;7100;Error in making a reference to the TDMS file. Check the path.
