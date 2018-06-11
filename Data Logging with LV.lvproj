@@ -515,7 +515,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C0330A5E-3872-42DE-8248-BCEFA61123AD}</Property>
-				<Property Name="Bld_version.build" Type="Int">51</Property>
+				<Property Name="Bld_version.build" Type="Int">53</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Data logging Application.exe</Property>
@@ -612,7 +612,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{0B6C7AD8-8A75-44F1-AB4A-37E87FFDD949}</Property>
-				<Property Name="Bld_version.build" Type="Int">7</Property>
+				<Property Name="Bld_version.build" Type="Int">10</Property>
 				<Property Name="Bld_version.minor" Type="Int">9</Property>
 				<Property Name="Destination[0].destName" Type="Str">DataViewer.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Builds/DataViewer/DataViewer.exe</Property>
@@ -639,14 +639,14 @@
 				<Property Name="TgtF_targetfileGUID" Type="Str">{B621C0B6-F73D-494F-8705-2FAFBF279103}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">DataViewer.exe</Property>
 			</Item>
-			<Item Name="Wizard" Type="EXE">
+			<Item Name="03 Wizard" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{656E822A-7051-4C75-854B-DA2D2B9C79C0}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{74F7C3D2-FC45-470F-B21B-03D1088CBD15}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{0FDD689C-986F-4BD5-9468-76183775A3DD}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Wizard</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">03 Wizard</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
@@ -654,7 +654,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{20C42EE9-3418-4F3C-9A42-FB79A3A2AE10}</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">SV Wizard.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Builds/SVCreationWizard/SV Wizard.exe</Property>
@@ -666,7 +666,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Support/icon/Wizard2.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{1F88A41D-3414-46F1-8705-A1E3248F11C6}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B384877F-A987-4CCF-9B84-68CB57E8867B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/Wizard.vi</Property>
@@ -674,10 +674,10 @@
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">ePeymani</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Shared Variable Creation Wizard</Property>
-				<Property Name="TgtF_internalName" Type="Str">Wizard</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Shared Variable Creation 03 Wizard</Property>
+				<Property Name="TgtF_internalName" Type="Str">03 Wizard</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 Ehsan Peymani</Property>
-				<Property Name="TgtF_productName" Type="Str">SC Creation Wizard</Property>
+				<Property Name="TgtF_productName" Type="Str">SC Creation 03 Wizard</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{04EB21DE-C018-4B5A-9E49-E0566714A30A}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">SV Wizard.exe</Property>
 			</Item>
@@ -749,7 +749,7 @@
 				<Property Name="Destination[1].type" Type="Str">userFolder</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="INST_author" Type="Str">Aker Solutions ASA</Property>
-				<Property Name="INST_buildLocation" Type="Path">../builds/Simple Installer/Data Viewer</Property>
+				<Property Name="INST_buildLocation" Type="Path">../DataLoggingApp/Installers/DataViewer</Property>
 				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
 				<Property Name="INST_buildSpecName" Type="Str">02 Simple Installer - Data Viewer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{94CC5A97-8BFE-400C-95B1-5D678363D8BE}</Property>
@@ -760,11 +760,9 @@
 				<Property Name="MSI_arpCompany" Type="Str">MHWirth</Property>
 				<Property Name="MSI_arpContact" Type="Str">ehsan.peymani@mhwirth.com</Property>
 				<Property Name="MSI_arpURL" Type="Str">www.mhwirth.com</Property>
-				<Property Name="MSI_bannerImageID" Type="Ref"></Property>
 				<Property Name="MSI_distID" Type="Str">{EF848530-FDC6-49AD-A160-40A0A87B2C2A}</Property>
 				<Property Name="MSI_osCheck" Type="Int">0</Property>
 				<Property Name="MSI_upgradeCode" Type="Str">{9D138D9C-B66A-45ED-8837-EBA094F9A07E}</Property>
-				<Property Name="MSI_welcomeImageID" Type="Ref"></Property>
 				<Property Name="MSI_windowMessage" Type="Str">as part of MHWirth solution for PC-based data logging</Property>
 				<Property Name="MSI_windowTitle" Type="Str">Log Viewer</Property>
 				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
@@ -773,7 +771,7 @@
 				<Property Name="RegDestCount" Type="Int">1</Property>
 				<Property Name="Source[0].dest" Type="Str">{94CC5A97-8BFE-400C-95B1-5D678363D8BE}</Property>
 				<Property Name="Source[0].File[0].dest" Type="Str">{94CC5A97-8BFE-400C-95B1-5D678363D8BE}</Property>
-				<Property Name="Source[0].File[0].name" Type="Str">Log Viewer.exe</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">DataViewer.exe</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">Data Viewer</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">MHWirth</Property>
@@ -847,58 +845,9 @@
 				<Property Name="Source[0].File[3].tag" Type="Str">{C3B7A5DB-1ADB-4DE8-8E1F-1AB4EF36BC21}</Property>
 				<Property Name="Source[0].FileCount" Type="Int">1</Property>
 				<Property Name="Source[0].name" Type="Str">Wizard</Property>
-				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Wizard</Property>
+				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/03 Wizard</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
 				<Property Name="SourceCount" Type="Int">1</Property>
-			</Item>
-			<Item Name="WriteSharedVariables" Type="EXE">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{D5602EA6-6CBD-4AC4-93C5-BFB966936951}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{604998BC-5704-43A1-99FF-93D949C7EF7C}</Property>
-				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="App_waitDebugging" Type="Bool">true</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{C516CA5B-D0EC-4EF1-9BBA-2EA18C4E6FF5}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">WriteSharedVariables</Property>
-				<Property Name="Bld_excludeDependentDLLs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/WriteSharedVariables</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{063BD808-D0A1-4856-B8AB-8F9FAE9AEA19}</Property>
-				<Property Name="Bld_userLogFile" Type="Path">../builds/Data Logging with LV/WriteSharedVariables/BuildLog.txt</Property>
-				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_version.build" Type="Int">15</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">LabVIEW.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/WriteSharedVariables/LabVIEW.exe</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/WriteSharedVariables/data</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Support/Figs/ICO.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C7779AE7-7CF2-4D2F-BC52-FBDF7101434C}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Test/WriteSharedVariables_org.vi</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Test/WriteSharedVariables.vi</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[2].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
-				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">WriteSharedVariables</Property>
-				<Property Name="TgtF_internalName" Type="Str">WriteSharedVariables</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2016 </Property>
-				<Property Name="TgtF_productName" Type="Str">WriteSharedVariables</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{D8658352-6488-4E2C-BDCF-87047792045C}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">LabVIEW.exe</Property>
 			</Item>
 		</Item>
 	</Item>
