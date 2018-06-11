@@ -515,7 +515,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C0330A5E-3872-42DE-8248-BCEFA61123AD}</Property>
-				<Property Name="Bld_version.build" Type="Int">45</Property>
+				<Property Name="Bld_version.build" Type="Int">51</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Data logging Application.exe</Property>
@@ -534,7 +534,7 @@
 				<Property Name="Destination[3].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Support/icon/data_logging_2.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{1F88A41D-3414-46F1-8705-A1E3248F11C6}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F582A96D-29CC-456B-B236-A7CAA930D3D5}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/Data Logging Application.vi</Property>
@@ -556,6 +556,11 @@
 				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Support/icon/TrayIcon.png</Property>
 				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[13].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/My Computer/Main/Data Viewer.vi</Property>
+				<Property Name="Source[13].newName" Type="Str">DataViewer.vi</Property>
+				<Property Name="Source[13].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[13].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Main/Release Note/Release Note.txt</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
@@ -583,7 +588,7 @@
 				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Support/Templates/Template.csv</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">3</Property>
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Support/Templates/Template.xlsx</Property>
-				<Property Name="SourceCount" Type="Int">13</Property>
+				<Property Name="SourceCount" Type="Int">14</Property>
 				<Property Name="TgtF_companyName" Type="Str">ePeymani</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">MHWirth Data logging Application</Property>
 				<Property Name="TgtF_internalName" Type="Str">01 Data logging Application</Property>
@@ -603,34 +608,36 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/02 Log Viewer</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Builds/DataViewer</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{0B6C7AD8-8A75-44F1-AB4A-37E87FFDD949}</Property>
 				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.minor" Type="Int">9</Property>
-				<Property Name="Destination[0].destName" Type="Str">Log Viewer.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/02 Log Viewer/Log Viewer.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">DataViewer.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../Builds/DataViewer/DataViewer.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/02 Log Viewer/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../Builds/DataViewer/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Support/icon/Viewer_1.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A3BBE532-3A4A-4E45-87D1-440D73D93DE0}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4BFDBBD8-3E1F-43AC-8E8B-E1D4CB828B30}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main/Data Viewer.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_companyName" Type="Str">MHWirth ASA</Property>
+				<Property Name="TgtF_companyName" Type="Str">ePeymani</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">02 Log Viewer</Property>
 				<Property Name="TgtF_internalName" Type="Str">02 Log Viewer</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 MHWirth ASA</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 Ehsan Peymani</Property>
 				<Property Name="TgtF_productName" Type="Str">02 Log Viewer</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{B621C0B6-F73D-494F-8705-2FAFBF279103}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Log Viewer.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">DataViewer.exe</Property>
 			</Item>
 			<Item Name="Wizard" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
@@ -647,7 +654,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{20C42EE9-3418-4F3C-9A42-FB79A3A2AE10}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">SV Wizard.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Builds/SVCreationWizard/SV Wizard.exe</Property>
@@ -791,8 +798,6 @@
 				<Property Name="SourceCount" Type="Int">1</Property>
 			</Item>
 			<Item Name="02 Simple Installer - SV Creation Wizard" Type="Installer">
-				<Property Name="AB_Class_Path" Type="Path">/C/Program Files (x86)/National Instruments/LabVIEW 2014/vi.lib/AppBuilder/IB_Classes/MSI/IB_MSI.lvclass</Property>
-				<Property Name="AB_UIClass_Path" Type="Path">/C/Program Files (x86)/National Instruments/LabVIEW 2014/vi.lib/AppBuilder/IB_Classes/Installer/UI/AB_UI_Frmwk_Installer.lvclass</Property>
 				<Property Name="Destination[0].name" Type="Str">c:\LabVIEWapps</Property>
 				<Property Name="Destination[0].path" Type="Path">/c/LabVIEWapps</Property>
 				<Property Name="Destination[0].tag" Type="Str">{AF249C9C-F70B-4C99-A709-5F965BD228BD}</Property>
