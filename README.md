@@ -32,4 +32,5 @@ It can be run as part of the data logging application using the menu: _Tools -> 
 
 This limitation comes from the fact that LabVIEW only allows executables on the same runtime to share read/write access to TDMS files. See [here](https://forums.ni.com/t5/LabVIEW/Is-it-allowed-read-TDMS-file-while-there-is-a-reference-open-to/td-p/1436632) and [here](https://forums.ni.com/t5/LabVIEW/Dr-Damien-s-Development-Running-Top-Level-VIs-III-Launching/m-p/1004721).
 
+
 # SV Creation Wizard
