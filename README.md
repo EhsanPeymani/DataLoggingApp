@@ -36,3 +36,6 @@ See [Data Viewer - Wiki page](https://github.com/EhsanPeymani/DataLoggingApp/wik
 
 
 # SV Creation Wizard
+This app will assist the user with creating shared variable libraries from excel sheets as well as helping with managing the variable engine. 
+
+Visit [SV Creation Wizard - Wiki page](https://github.com/EhsanPeymani/DataLoggingApp/wiki/SV-Creation-Wizard) for more detail.
